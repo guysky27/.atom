@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+        "spec": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\willi347\\AppData\\Local\\Temp\\apm-install-dir-11735-9196-c26nm9"
+    ]
+  ],
+  "_from": "..\\d-11735-9196-1hcm9x9\\package.tgz",
+  "_id": "linter-terraform-syntax@1.1.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/linter-terraform-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+    "spec": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11735-9196-1hcm9x9\\package.tgz",
+  "_shasum": "b5b777b05a635ccf4c79fab474a5f912eedb4e09",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\willi347\\AppData\\Local\\Temp\\d-11735-9196-1hcm9x9\\package.tgz",
+  "_where": "C:\\Users\\willi347\\AppData\\Local\\Temp\\apm-install-dir-11735-9196-c26nm9",
+  "bugs": {
+    "url": "https://github.com/mschuchard/linter-terraform-syntax/issues"
+  },
+  "dependencies": {
+    "atom-linter": "^5.0.2",
+    "atom-package-deps": "^3.0.9"
+  },
+  "description": "Terraform lint via validate or plan",
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest"
+  },
+  "engines": {
+    "atom": ">0.95.0"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "rules": {
+      "strict": 0
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "globals": {
+      "atom": true
+    }
+  },
+  "homepage": "https://github.com/mschuchard/linter-terraform-syntax#readme",
+  "keywords": [
+    "lint",
+    "linter",
+    "terraform"
+  ],
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "name": "linter-terraform-syntax",
+  "optionalDependencies": {},
+  "package-deps": [
+    "linter",
+    "language-terraform"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "readme": "![Preview](https://raw.githubusercontent.com/mschuchard/linter-terraform-syntax/master/linter_terraform_syntax.png)\n\n### Linter-Terraform-Syntax\n`Linter-Terraform-Syntax` aims to provide functional and robust `terraform validate/plan` linting functionality within Atom.\n\n### Installation\n`Terraform` is required to be installed before using this. The `Linter` and `Language-Terraform` Atom packages are also required, but should be automatically installed as dependencies thanks to steelbrain's `package-deps`.\n\n### Usage\n- In the package settings there is an option to use `terraform plan` instead of `terraform validate`. Both options will show syntax errors for files in the current directory and notify non-syntax validation errors for the current directory. The plan option will additionally notify non-syntax plan errors for the current directory.\n- To quickly and easily access issues in other files, you will need to change the settings inside `Linter-UI-Default`. For `Panel Represents` and/or `Statusbar Represents`, you will need to change their options to `Entire Project`. This will allow you to use either display to quickly access issues in other files by clicking on the displayed information.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschuchard/linter-terraform-syntax.git"
+  },
+  "version": "1.1.2"
+}

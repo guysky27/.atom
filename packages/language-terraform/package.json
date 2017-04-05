@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+        "spec": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\apm-install-dir-117217-8256-161qivt"
+    ]
+  ],
+  "_from": "..\\d-117217-8256-1gt9zob\\package.tgz",
+  "_id": "language-terraform@0.8.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-terraform",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+    "spec": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117217-8256-1gt9zob\\package.tgz",
+  "_shasum": "0148d7c3b6150e8827f1ea86f73cb47f6f8ef624",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\d-117217-8256-1gt9zob\\package.tgz",
+  "_where": "C:\\Users\\PAULTA~1\\AppData\\Local\\Temp\\1\\apm-install-dir-117217-8256-161qivt",
+  "bugs": {
+    "url": "https://github.com/GiantToast/language-terraform/issues"
+  },
+  "dependencies": {},
+  "description": "Terraform.io support for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://GiantToast.github.io/language-terraform",
+  "license": "MIT",
+  "name": "language-terraform",
+  "optionalDependencies": {},
+  "readme": "# Terraform.io language support in Atom\n\nAdds syntax highlighting for Terraform.io configuration files to Atom.\n\n## Install\n\nInstall the package `language-terraform` in Atom (Preferences->Install->Packages) or Atom's package manager from a shell:\n\n```bash\n$ apm install language-terraform\n```\n\n## Contributions\n\nContributions are not only welcome, but encouraged.  Please fork and submit pull requests for snippets, grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiantToast/language-terraform.git"
+  },
+  "version": "0.8.0"
+}

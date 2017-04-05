@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "028518e6-54a3-6a1b-bbf2-bb2863585fde"
+  "git-plus":
+    general:
+      _analyticsUserId: "20149c2a-f777-4213-b858-08743f657475"
+  "linter-puppet-lint":
+    automaticFix: true
+    oldVersion: false
+    skip80Chars: true
+  welcome:
+    showOnStartup: false
